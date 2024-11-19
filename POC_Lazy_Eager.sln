@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC_Lazy_Eager", "POC_Lazy_Eager\POC_Lazy_Eager.csproj", "{45E6CDF5-535B-4AA4-A580-713C68485715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E6CDF5-535B-4AA4-A580-713C68485715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E6CDF5-535B-4AA4-A580-713C68485715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E6CDF5-535B-4AA4-A580-713C68485715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E6CDF5-535B-4AA4-A580-713C68485715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33778B6C-A029-4BCF-A96B-8B531E9B5C7E}
+	EndGlobalSection
+EndGlobal
