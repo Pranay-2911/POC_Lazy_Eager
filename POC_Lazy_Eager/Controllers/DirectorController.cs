@@ -13,15 +13,18 @@ namespace POC_Lazy_Eager.Controllers
         {
             _directorService = directorService;
         }
+
+
+
         [HttpGet("Lazy")]
-        public IActionResult GetByLazy()
+        public IActionResult GetByLazy() //show the list of Directors with there Books By using lazy loading
         {
-            var director = _directorService.GetAllByLazy();
+            var director = _directorService.GetAllByLazy(); 
             return Ok(director);
         }
 
         [HttpGet("Eager")]
-        public IActionResult GetByEager()
+        public IActionResult GetByEager() //show the list of Directors with there Books By using eager loading
         {
             var director = _directorService.GetAllByEager();
             return Ok(director);

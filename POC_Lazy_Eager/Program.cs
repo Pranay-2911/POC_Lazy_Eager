@@ -18,7 +18,7 @@ namespace POC_Lazy_Eager
             builder.Services.AddDbContext<DirectorContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ConnString"))
-                .UseLazyLoadingProxies();
+                .UseLazyLoadingProxies(); // Enables Lazy Loading 
 
             });
 
